@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <main class="currentWeather">
+            <h1 class="main-title">
+                Weather in Elysium Plantitia
+            </h1>
+
+            <div class="date">
+                <h2 class="section-title section-title--sol"> SOL 377 </h2>
+                <p class="date_day">September 26</p>
+            </div>
+            <div class="temp">
+                <h2 class="section-title"> Temperature </h2>
+                <p class="reading">High -20^0C</p>
+                <p class="reading">Low -198^0C</p>
+            </div>
+            <div class="wind">
+                <h2 class="section-title"> Wind</h2>
+                <p class="reading">75 kph</p>
+                <div class="wind_direction">
+                    <p class="sr-only">45deg</p>
+                    <div class="wind_arrow"></div>
+                </div>
+            </div>
+
+            <div class="info">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati blanditiis non, itaque possimus cupiditate officia nobis magni atque aperiam, voluptatem quam eius perspiciatis architecto? Velit vitae non minima fugiat quia, quis explicabo quasi ipsam.</p>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, repellendus impedit. Cupiditate nostrum voluptatibus rerum totam modi sint veniam, facere molestiae odit sapiente animi!</p>
+            </div>
+
+            <div class="unit">
+                <!-- <label for="cel">°C</label>
+                <input type="radio" name="unit" id="cel"> -->
+                <!-- when unit toggle is clicked, checkbox is switched -->
+                <!-- <button class="unit_toggle"></button>
+                <label for="fah">°F</label>
+                <input type="radio" name="unit" id="fah"> -->
+
+            </div>
+        </main>
+
+        <!-- This is for the bottom part of the app -->
+        <div class="previousWeather">
+            <label for="weather_toggle" class="show-prev-weather-toggle">
+                &#8593; <span class="sr-only">Show previous weaher</span>
+            </label>
+
+            <input type="checkbox" class="show-prev-weather-toggle" id="weather_toggle">
+
+            <h2 class="previous-days">Previous seven days</h2>
+
+            <div class="previous-days">
+                <div class="previous-day">
+                    <h3 class="previous-day_sol">SOL 377</h3>
+                    <p class="previous-day-date">September 31</p>
+                    <p class="previous-day-temp">High 4444</p>
+                    <p class="previous-day-temp">low 23444</p>
+                    <button class="more-info"></button>
+                </div>
+            </div>
+        </div>
+
+        </div>
+</body>
+
+</html>
